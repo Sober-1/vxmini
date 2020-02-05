@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "w-tab-control": "/components/w-tab-control/w-tab-control",
+    "detail-swiper": "./childComs/detail-swiper",
+    "w-info": "./childComs/w-info/w-info",
+    "w-shopInfo": "./childComs/w-shopInfo/w-shopInfo",
+    "w-look-info": "./childComs/w-look-info/w-look-info",
+    "w-bottom": "./childComs/w-bottom/w-bottom",
+    "w-can-info": "./childComs/w-can-info/w-can-info",
+    "w-small-info": "./childComs/w-small-info/w-small-info"
+  } 
+}

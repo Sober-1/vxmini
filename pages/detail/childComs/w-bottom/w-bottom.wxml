@@ -1,0 +1,22 @@
+<view class="detail-bottom">
+  <view class="icon">
+    <view class="icon-item">
+      <image src="/assets/images/detail/service.png"></image>
+    </view>
+    <view>客服</view>
+  </view>
+  <view class="icon">
+    <view class="icon-item">
+      <image src="/assets/images/detail/shop.png"></image>
+    </view>
+    <view>店铺</view>
+  </view>
+  <view class="icon">
+    <view class="icon-item">
+      <image src="/assets/images/detail/collect.png"></image>
+    </view>
+    <view>收藏</view>
+  </view>
+  <view class="go-cart">加入购物车</view>
+  <view class="buy">购买</view>
+</view>

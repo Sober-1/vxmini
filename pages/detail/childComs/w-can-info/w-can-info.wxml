@@ -1,0 +1,9 @@
+<view class="can-info">
+  <view class="title">{{canInfo.key}}</view>
+  <view wx:for="{{canInfo.set}}" wx:key="{{index}}" class="item">
+    <view class="text">
+       <view class="name">{{item.key}}</view>
+       <view class="value">{{item.value}}</view>
+    </view>
+  </view>
+</view>

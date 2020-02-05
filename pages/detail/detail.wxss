@@ -1,0 +1,6 @@
+.detail{
+  background-color: #eaeaea;
+}
+.scroll{
+  height: calc(100vh - 110rpx - 80rpx);
+}

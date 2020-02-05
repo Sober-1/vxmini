@@ -1,0 +1,27 @@
+.can-info{
+  width: 690rpx;
+  margin: 10rpx auto;
+}
+.title{
+  margin: 20rpx 0;
+}
+.text{
+  display: flex;
+  height: 130rpx;
+  line-height: 130rpx;
+  border-bottom: 2rpx solid #b0b0b0;
+}
+.name{
+  width: 180rpx;
+}
+.value{
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 28rpx;
+  flex: 1;
+  color: #ff6699;
+}

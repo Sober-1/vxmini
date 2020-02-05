@@ -1,3 +1,20 @@
-<!--pages/home/home.wxml-->
-<text class="title">Hello World</text>
-<button size="mini">按钮</button>
+<!-- 1.展示轮播图 -->
+<w-swiper list="{{banners}}"></w-swiper>
+
+<!-- 2.显示推荐数据 -->
+<recommend recommend="{{recommends}}" bind:imageLoad="handleImageLoad"></recommend>
+
+<!-- 3.本周流行的显示 bind:load  监听图片加载完成 -->
+<view class="popular">
+  <image src="/assets/images/home/recommend_bg.jpg" mode="widthFix"></image>
+</view>
+
+<!-- 4.tab-control的使用 -->
+<w-tab-control list="{{list}}" bind:tabclick="handleTabClick" class="{{isFixed ? 'fixed' : ''}}" id="tab-control"></w-tab-control>
+<w-tab-control list="{{list}}" wx:if="{{isFixed}}"/>
+
+<!-- 5.展示商品数据 -->
+<w-goods goods="{{goods[currentType].list}}"></w-goods>
+
+<!-- 6.回到顶部 -->
+<w-back-top wx:if="{{showBackTop}}"></w-back-top>

@@ -1,0 +1,12 @@
+ <view>
+   <w-tab-control list="{{list}}" bind:tabclick="handleClick"/>
+ <scroll-view class="scroll" scroll-y scroll-top="{{scrollTo}}">
+   <detail-swiper list="{{topImg}}" bind:imgLoad="imgLoad"/>
+   <w-info goodInfo="{{goodsInfo}}"></w-info>
+   <w-shopInfo shopInfo="{{goodsInfo.shopInfo}}"/>
+   <w-look-info info="{{goodsInfo.detailInfo}}"/>
+   <w-small-info smallInfo="{{goodsInfo.itemParams.rule}}" id="info"/>
+   <w-can-info canInfo="{{goodsInfo.itemParams.info}}"/>
+ </scroll-view>
+   <w-bottom/>
+ </view>

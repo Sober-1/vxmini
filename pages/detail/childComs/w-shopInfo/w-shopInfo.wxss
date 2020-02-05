@@ -1,0 +1,75 @@
+.shop-info{
+  background-color: #fff;
+  height: 466rpx;
+  width: 750rpx;
+  padding: 50rpx 16rpx;
+}
+.title{
+  margin-top:30rpx;
+  height: 100rpx;
+}
+.title image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.title text{
+  margin-left: 20rpx;
+  position: relative;
+  top: -36rpx;
+}
+.body{
+  display: flex;
+  margin-top:50rpx;
+  color: #333;
+}
+
+.left{
+  margin-top:26rpx;
+  width: 50%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-right: 1px solid #b0b0b0;
+}
+.right{
+  height: 160rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 36rpx;
+}
+.right .item{
+  display: flex;
+}
+.right .name{
+  margin-right: 20rpx;
+}
+.right .score{
+  flex: 1;
+  color: #5ea732;
+}
+.right .better{
+  margin-left: 20rpx;
+  color: #fff;
+  background-color:#5ea732;
+}
+.right .good{
+  flex: 1;
+  color: #f13e3a;
+}
+.right .well{
+  background-color: #f13e3a;
+}
+
+.foot{
+  text-align: center;
+  width: 300rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #f2f5f8;
+  margin: 30rpx auto;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+}
+

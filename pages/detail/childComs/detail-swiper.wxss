@@ -1,0 +1,8 @@
+.swiper{
+  height: 600rpx;
+  background-color: #fff;
+}
+.swiper-item image{
+  width: 100%;
+  height: 600rpx;
+}

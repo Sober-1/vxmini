@@ -1,0 +1,10 @@
+<!-- circular 可以使轮播图完美衔接 切换到最后一张好再切换就是第一张 -->
+<!-- interval 自动滚动的时间  autoplay可以自动滚动 duration 决定滚动一张照片所需的时间-->
+<!-- indicator-dots是否显示轮播指示器 indicator-active-color选中指示器的颜色-->
+<swiper class="swiper" circular autoplay interval="2000" duration="300" indicator-dots indicator-active-color="#ff5777">
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <swiper-item class="swiper-item">
+      <image src="{{item.image}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>

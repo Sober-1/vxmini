@@ -1,0 +1,13 @@
+<view class="look-info">
+  <view class="desc">
+    {{info.desc}}
+  </view>
+  <view>
+    <view class="title">穿着效果</view>
+    <view wx:for="{{info.detailImage}}" wx:key="{{index}}">
+      <block wx:for="{{item.list}}" wx:key="{{index}}" class="item">
+        <image src="{{item}}" mode="widthFix"></image>
+      </block>
+    </view>
+  </view>
+</view>

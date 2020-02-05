@@ -1,0 +1,10 @@
+ function toFix(sum){
+  if (sum < 10000){
+    return num;
+  }
+  return (num/10000).toFixed(1) + '万'
+}
+
+module.exports = {
+  toFix : toFix
+}

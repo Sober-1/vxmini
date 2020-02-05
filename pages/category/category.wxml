@@ -1,0 +1,1 @@
+<cate-title titles="{{titles}}" imgs="{{imgs}}" bind:tabClick="getImage"/>

@@ -1,0 +1,11 @@
+<view class="goods-item" bindtap="lookTo" data-iid="{{item.iid}}">
+  <image src="{{item.show.img}}" mode="widthFix" class="image"></image>
+  <view class="dasc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">¥{{item.price}}</text>
+      <image src="/assets/images/common/favor.png" class="icon"></image>
+      <text class="cfav">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

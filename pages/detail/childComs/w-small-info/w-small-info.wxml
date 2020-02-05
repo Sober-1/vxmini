@@ -1,0 +1,10 @@
+<view class="small-info">
+  <view class="title">{{smallInfo.key}}</view>
+  <block wx:for="{{smallInfo.tables}}" wx:key="{{index}}">
+    <view wx:for="{{item}}" wx:key="{{index}}" class="top">
+      <view wx:for="{{item}}" wx:key="{{index}}" class="item">
+        <view class="item-info">{{item}}</view>
+      </view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,19 @@
+<view class="all-info">
+  <view class="info">
+    <view class="title">{{goodInfo.itemInfo.title}}</view>
+    <text class="price">{{goodInfo.itemInfo.price}}</text>
+    <text class="old-price">{{goodInfo.itemInfo.oldPrice}}</text>
+    <text class="icon">{{goodInfo.itemInfo.discountDesc}}</text>
+    <view class="user-info">
+      <text wx:for="{{goodInfo.columns}}" wx:key="{{index}}">
+        {{item}}
+      </text>
+    </view>
+  </view>
+  <view class="promise">
+    <view wx:for="{{goodInfo.shopInfo.services}}" wx:key="{{index}}">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>

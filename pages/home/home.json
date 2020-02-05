@@ -1,3 +1,10 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "w-back-top": "/components/w-back-top/w-back-top",
+    "w-goods": "/components/w-goods/w-goods",
+    "w-tab-control": "/components/w-tab-control/w-tab-control",
+    "w-swiper": "/components/w-swiper/w-swiper",
+    "recommend": "./childrenCpns/recommend"
+  },
+  "navigationBarTitleText": "购物街"
 }

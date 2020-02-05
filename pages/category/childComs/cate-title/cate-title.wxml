@@ -1,0 +1,15 @@
+<view class="titles">
+  <view class="left">
+     <view wx:for="{{titles}}" wx:key="{{index}}" 
+        class="item {{currentIndex===index ? 'active' : ''}}"
+        bindtap="itemClick" data-index="{{index}}" data-mait="{{item.maitKey}}">
+    <view>{{item.title}}</view>
+  </view>
+  </view>
+  <view class="right">
+    <view class="img" wx:for="{{imgs}}" wx:key="{{index}}">
+      <image src="{{item.image}}"></image>
+      <view class="text">{{item.title}}</view>
+    </view>
+  </view>
+</view>
